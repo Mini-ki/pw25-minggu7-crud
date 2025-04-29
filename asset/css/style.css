@@ -1,0 +1,354 @@
+@font-face {
+    font-family: 'quicksand-bold';
+    src: url(../font/quicksand/Quicksand_Bold_Oblique.otf);
+}
+
+body {
+    color: black;
+    font-family: sans-serif;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #225b4e;
+}
+
+h2{
+    margin-top: 0px;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    color: #225b4e;
+}
+
+nav {
+    width : 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #3D8D7A;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+form{
+    width: 300px;
+    margin: 0px;
+}
+
+form label{
+    display: flex;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+form input{
+    width: 70%;
+    padding: 5px;
+    border: none;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+input[type="submit"]{
+    margin-top: 10px;
+    width: 74%;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #225b4e;
+    color: white;
+}
+
+section {
+    margin: auto;
+    display: flex;
+}
+
+.header {
+    width: 1100px;
+    position: relative;
+    margin: auto;
+    background-color: white;
+}
+
+.logoSimpelah {
+    font-size: 40px;
+    color: #3D8D7A;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    float: left
+}
+
+.menu {
+    float: right;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+}
+
+.imageMenu{
+    width: 50%;
+    height: 50%;
+}
+
+.kolom {
+    margin: 50px;
+}
+
+.kolom .motivation {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #225b4e;
+    margin-bottom: 10px;
+}
+
+.kolom .deskripsi {
+    font-size: 17px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.about-us {
+    width: 1100px;
+    margin: auto;
+}
+
+.about-us h1{
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #225b4e;
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
+
+.about-us .deskripsi{
+    margin: auto
+}
+
+.about-us img {
+    float: right;
+    width: 40%;
+    height: 40%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.about-us .deskripsi p{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 250px;
+    margin-right: 50%;
+    padding: auto;
+    word-wrap: break-word;
+}
+
+.scanning {
+    width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+}
+
+.scanning img {
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.scanning .deskripsi h1{
+    font-size: 50px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-right: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
+    color: #225b4e;
+}
+
+.scanning .deskripsi p{
+    float: right;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 250px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: auto;
+    word-wrap: break-word;
+}
+
+.table-information{
+    margin: auto;
+    width: 1100px;
+}
+
+.table-information h1{
+    float: left;
+    margin-top: 0px;
+    margin-right: 220px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #225b4e;
+    margin-bottom: 30px;
+}
+
+.ranking-table{
+    margin-right: 20px;
+    margin-top: 100px;
+    float: right;
+    border-collapse: collapse;
+    font-size: 15px;
+    font-family: 'quicksand-bold';
+}
+
+.ranking-table thead tr{
+    background-color: #3D8D7A;
+    color: white;
+    text-align: left;
+}
+
+.ranking-table th,
+.ranking-table td{
+    padding: 12px 30px;
+}
+
+.ranking-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.ranking-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+    color: #225b4e;
+}
+
+.ranking-table tbody tr:last-of-type {
+    border-bottom: 2px solid #3D8D7A;
+}
+
+.table-information p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 48%;
+    word-wrap: break-word;
+}
+
+.kolomform {
+    margin: 50px;
+    margin-left: 60px;
+}
+
+.fitur-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+  
+.fitur-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.errorText{
+    color: #FE4F2D;
+    font-size: 8px;
+    margin-top: 4px;
+    display: block;
+}
+
+.iconSuksesWrapper{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.iconSuksesWrapper.show{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.errorBoxWrapper {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;    
+    justify-content: center; 
+    z-index: 9999;
+    pointer-events: none; 
+}
+
+#errorBox {
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #FE4F2D;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+#errorBox.show{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+#iconSignUpSukses{
+    color: #4BB543;
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+
+#iconLogInSukses{
+    color: #4BB543;
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+
+
